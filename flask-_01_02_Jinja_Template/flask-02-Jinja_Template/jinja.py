@@ -11,7 +11,7 @@ def home():
 def head():
     return render_template("index.html", number1 =10, number2 = 20)  
 
-app.route("/sum")
+@app.route("/sum")
 def sum():
 
     val1 = 22
